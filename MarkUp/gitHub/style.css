@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 88px;
+    padding: 16px 0;
+    line-height: 88px;
+    background-color: #24292e;
+    color: hsla(0,0%,100%,.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.page__center {
+    margin: 0 auto;
+    width: 1012px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.flex {
+    display: flex;   
+}
+
+.navigation__list {
+    padding: 0 12px; 
+}
+
+.navigation__links{
+    color: #fff;
+}
+
+.navigation__links:hover {
+    color: hsla(0,0%,100%,.75);
+}
+
+.cat {
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+}
+
+.search__input {
+    width: 240px;
+    height: 36px;
+    background: #3f4448;
+    color: #24292e;
+    border: none;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.search__logo{
+    width: 19px;
+    margin-left: -30px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.search__input:active {
+    background: #fff;
+}
+
+.sign__border {   
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+.main{
+    width: 100%;
+    height: 605px;
+    background: #2b3137;
+}
+
+.main__page {
+    padding: 64px 0;
+    height: 100%;
+}
+
+.main__text {
+    width: 535px;
+    height: 295px;
+}
+
+.main__head {
+    font-weight: bold;
+    font-size: 64px;
+    color: #fff;
+}
+
+.main__para {
+    font-size: 21px!important;
+    font-weight: 400!important;
+    color: hsla(0,0%,100%,.6);
+}
+
+.main__para__link {
+    font-size: 21px!important;
+    font-weight: 400!important;
+    color: #fff;
+    border-bottom: 1px solid hsla(0,0%,100%,.125);
+}
+
+.main__para__link:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.main__form {
+    background: #fff;
+    height: 476px;
+    width: 385px;
+    border-radius: 6px;
+}
+
+.main__form__info {
+    padding: 24px;
+    color: #586069;
+}
+
+.main__form__cv {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.main__form__head {
+    padding-bottom: 5px;
+
+}
+
+.main__form__input {
+    width: 333px;
+    height: 46px;
+    background: #fafbfc;
+    color: #24292e;
+    border: 1px solid #d1d5da;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.main__form__text {
+    
+}
+
+.main__form__text__link {
+    color: #586069;
+    font-size: 12px;
+}
+
+.main__btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 32px;
+    margin-top: 20px;
+    background-color: #2ebc4f;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main__form__para {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #586069;
+
+
+}
+
+.main__form__link {
+    font-size: 13px;
+}
+
+.main__form__link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.infogithub {
+    width: 100%;
+    height: 285px;
+    background: #fafbfc;
+}
+
+.infogithub__main {
+    margin: 0 auto;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infogithub__header {
+    font-size: 32px;
+    font-weight: 500;
+    color: #24292e;
+}
+
+.infogithub__para {
+    color: #586069;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 736px;
+    justify-content: center;
+    line-height: 1.5;
+
+}
+
+.infogithub__para__link {
+    color: #1277eb;
+    border-bottom: 1px solid #1277eb;
+
+}
+
+.center {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.infogithub__btn {
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 24px;
+    margin-left: 10px;
+}
+
+.infogithub__btn__blue {
+    background-color: #1277eb;
+    color: #fff;
+}
+
+.infogithub__btn__white {
+    background-color: hsla(0,0%,100%,0)!important;
+    border: 1px solid rgba(18,119,235,.5);
+    color: #1277eb!important;
+}
+.infogithub__btn__blue__link {
+    color: #fff;
+}
+
+.infogithub__btn__blue:hover {
+    background: #195ba5;
+}
+
+.infogithub__btn__white__link{
+    color: #1277eb;
+    outline: none;
+}
+
+.infogithub__btn__white:hover{
+    border: 1px solid #195ba5;
+    
+}
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 310px;
+    background: #fff;
+
+}
+
+.footer__main {
+    padding: 32px 0;
+}
+
+.logo {
+    width: 327px;
+    height: 214px;
+}
+
+.logo__name {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer__cadegories {
+    width: 164px;
+    height: 238px;
+    padding-right: 20px;
+    
+}
+
+.footer__name {
+    font-weight: 400;
+    color: #6a737d;
+    font-size: 16px;
+}
+
+.footer__item {
+    margin-top: 10px;
+    color: #586069;
+}
+.footer__list {
+    line-height: 1.5; 
+    padding-bottom: 5px;
+}
+
+.footer__link {
+    color: #586069;
+    font-size: 12px;
+}
+
+.footer__link:hover {
+    color: #1277eb;
+    border-bottom: 1px solid #1277eb ;
+}
+
+
+
+.footer__contact {
+    width: 100%;
+    height: 68px;
+    background-color: #fafbfc;
+}
+
+.least__footer {
+    padding: 20px 0;
+    background-color: #fafbfc;
+}
+
+.footer__information__name {
+    color: #586069;
+    font-size: 12px;
+}
+
+.space {
+    padding: 0 5px;
+}
+
+.footer__icons {
+    display: flex;
+    font-size: 20px;
+    margin:  0 10px;
+}
+
+.footer__icon__link {
+    color: #959da5;
+
+}
+
+.footer__icon{
+    padding-left: 12px;
+    font-size: 24px;
+}
