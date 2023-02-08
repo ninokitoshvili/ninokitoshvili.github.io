@@ -1,0 +1,52 @@
+.conteiner {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.bigboy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 20px;
+}
+
+.littleone {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+
+.effectdiv {
+  height: 100%;
+  background: green;
+  overflow: hidden;
+}
+
+.btndiv {
+  background: blue;
+}
+
+.btndiv button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: greenyellow;
+}
+
+img {
+  width: 100%;
+  height: 97%;
+}
+
+.ui-effects-transfer {
+  border: 2px solid black;
+}
